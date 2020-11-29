@@ -8,4 +8,6 @@ public enum JavaNodeTypes {
 	Type,
 	Expression,
 	Statement,
+	Scope,
+	Value
 }

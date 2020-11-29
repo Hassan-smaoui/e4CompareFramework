@@ -20,7 +20,7 @@ public class TextReader extends AbstractArtifactReader {
 	public TextReader() {
 		super(SUPPORTED_FILE_ENDINGS);
 	}
-
+	
 	@Override
 	public Tree readArtifact(FileTreeElement element) {
 		Tree tree = null;
